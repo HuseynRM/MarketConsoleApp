@@ -12,7 +12,7 @@ namespace MarketConsoleApp.Model
         public Catagories Catagory { get; set; }
         public int Count { get; set; }
 
-        public static int  CodeCount { get; set; } = 1000;
+        private static int  CodeCount { get; set; } = 1000;
 
         public string Code;
 
